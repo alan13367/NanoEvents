@@ -4,55 +4,67 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#637CBC"
+    android:gravity="center"
+    android:background="@color/blueCatSalud"
     tools:context=".LoginActivity">
 
-    <Button
-        android:id="@+id/signInBtn"
-        android:layout_width="163dp"
-        android:layout_height="66dp"
-        android:backgroundTint="#070F51"
-        android:text="Log In"
-        tools:layout_editor_absoluteX="124dp"
-        tools:layout_editor_absoluteY="485dp" />
-
-    <EditText
-        android:id="@+id/pwdIn"
-        android:layout_width="289dp"
-        android:layout_height="48dp"
-        android:ems="10"
-        android:hint="Password"
-        android:inputType="textPassword"
-        tools:layout_editor_absoluteX="61dp"
-        tools:layout_editor_absoluteY="341dp" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="337dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/appNameCaps"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="77dp" />
 
     <EditText
         android:id="@+id/usernameIn"
         android:layout_width="281dp"
         android:layout_height="42dp"
         android:ems="10"
-        android:hint="Username"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/username"
         android:inputType="textPersonName"
         tools:layout_editor_absoluteX="61dp"
         tools:layout_editor_absoluteY="211dp" />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="337dp"
-        android:layout_height="50dp"
-        android:text="NANO EVENTS"
-        android:textColor="@color/white"
-        android:textSize="40dp"
-        tools:layout_editor_absoluteX="58dp"
-        tools:layout_editor_absoluteY="77dp" />
+    <EditText
+        android:id="@+id/pwdIn"
+        android:layout_width="289dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="341dp" />
+
+
+
+    <Button
+        android:id="@+id/signInBtn"
+        android:layout_width="163dp"
+        android:layout_height="66dp"
+        android:backgroundTint="#070F51"
+        android:layout_centerHorizontal="true"
+        android:text="@string/log_in"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="485dp" />
+
+
+
+
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="You dont have an account yet?"
+        android:layout_centerHorizontal="true"
+        android:text="@string/you_dont_have_an_account_yet"
         android:textColor="@color/white"
-        android:textSize=""
+        android:textSize="10dp"
         tools:layout_editor_absoluteX="111dp"
         tools:layout_editor_absoluteY="598dp" />
 
@@ -60,9 +72,10 @@
         android:id="@+id/signUpBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
         android:background="@android:color/transparent"
         android:backgroundTint="#5E7BC1"
-        android:text="Sign Up"
+        android:text="@string/sign_up"
         tools:layout_editor_absoluteX="158dp"
         tools:layout_editor_absoluteY="617dp" />
 
