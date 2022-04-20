@@ -6,8 +6,16 @@
         <entry key="..\:/Users/Alan/AndroidStudioProjects/NanoEvents/app/src/main/res/layout/activity_login.xml" value="0.19010416666666666" />
         <entry key="..\:/Users/Alan/AndroidStudioProjects/NanoEvents/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/Alan/AndroidStudioProjects/NanoEvents/app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
-        <entry key="..\:/Users/Alan/AndroidStudioProjects/NanoEvents/app/src/main/res/layout/content_main.xml" value="0.25" />
         <entry key="..\:/Users/Alan/AndroidStudioProjects/NanoEvents/app/src/main/res/layout/main_card_layout.xml" value="0.1838768115942029" />
+        <entry key="app/src/main/res/layout/activity_create_event.xml" value="0.31567028985507245" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.31567028985507245" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.39311594202898553" />
+        <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.39311594202898553" />
+        <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.39311594202898553" />
+        <entry key="app/src/main/res/layout/app_bar_main.xml" value="0.39311594202898553" />
+        <entry key="app/src/main/res/layout/content_main.xml" value="0.39311594202898553" />
+        <entry key="app/src/main/res/layout/event_card_item.xml" value="0.39311594202898553" />
+        <entry key="app/src/main/res/layout/fragment_gallery.xml" value="0.39311594202898553" />
       </map>
     </option>
   </component>
