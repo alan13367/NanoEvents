@@ -15,6 +15,16 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
+        Button logInBtn = findViewById(R.id.signInBtn);
+        logInBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getBaseContext(),MainActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
         Button signUpBtn = findViewById(R.id.signUpBtn);
         signUpBtn.setPaintFlags(signUpBtn.getPaintFlags() | Paint.UNDERLINE_TEXT_FLAG); // underline sign up button
 
