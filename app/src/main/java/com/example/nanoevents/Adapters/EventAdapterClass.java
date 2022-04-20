@@ -9,7 +9,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.nanoevents.Event;
+import com.example.nanoevents.Entities.Event;
 import com.example.nanoevents.R;
 
 import java.util.ArrayList;
@@ -29,7 +29,7 @@ public class EventAdapterClass extends RecyclerView.Adapter<EventAdapterClass.Vi
     @Override
     public EventAdapterClass.Viewholder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
 
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.main_card_layout, parent, false);
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.event_card_item, parent, false);
         return new Viewholder(view);
     }
 

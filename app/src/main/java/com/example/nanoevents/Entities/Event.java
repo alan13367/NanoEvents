@@ -1,4 +1,4 @@
-package com.example.nanoevents;
+package com.example.nanoevents.Entities;
 
 public class Event {
     private String title;

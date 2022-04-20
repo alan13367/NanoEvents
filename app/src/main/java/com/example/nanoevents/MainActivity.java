@@ -7,6 +7,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.os.Bundle;
 
 import com.example.nanoevents.Adapters.EventAdapterClass;
+import com.example.nanoevents.Entities.Event;
 
 import java.util.ArrayList;
 
